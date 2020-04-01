@@ -183,7 +183,26 @@ body {
 .main-pages {
   width: 100%;
   max-width: 1920px;
+  position: relative;
 }
+
+.main-pages:after {
+  content: "";
+  position: absolute;
+  height: 56.75rem;
+  width: 35.2rem;
+
+  top: -3.43rem;
+  right: 50%;
+  bottom: 0;
+  z-index: 1;
+
+  background-image: url(img/footballer_566.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 
 .top-page {
   background-color: #fff;
@@ -206,7 +225,6 @@ body {
   width: 44.7rem;
   margin-left: auto;
   padding: 0 0.75rem;
-  position: relative;
 }
 
 .athlets--middle {
@@ -221,23 +239,6 @@ body {
   margin-left: auto;
 }
 
-.athlets:after {
-  content: "";
-  position: absolute;
-  height: 56.75rem;
-  width: 35.2rem;
-
-  top: -4.375rem;
-  left: -38.75rem;
-  right: 0;
-  bottom: 0;
-  z-index: 1;
-
-  background-image: url(img/footballer_566.png);
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
 
 .main-title {
   font-size: 5rem;
