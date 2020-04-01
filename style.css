@@ -180,6 +180,11 @@ body {
 
 /* Athlets */
 
+.main-pages {
+  width: 100%;
+  max-width: 1920px;
+}
+
 .top-page {
   background-color: #fff;
 }
@@ -194,7 +199,6 @@ body {
 
 .container {
   width: 100%;
-  max-width: 1600px;
   margin: 7.44rem auto;
 }
 
@@ -244,12 +248,12 @@ body {
 }
 
 .athlets-description {
-  padding-bottom: 60px;
+  padding-bottom: 3.75rem;
 }
 
 .title-number {
-  font-size: 18px;
-  line-height: 34px;
+  font-size: 1.125rem;
+  line-height: 2.125rem;
   color: #000000;
   font-weight: 700;
 
@@ -260,22 +264,22 @@ body {
   content: "";
   position: absolute;
 
-  top: 23px;
-  left: 1px;
+  top: 1.44rem;
+  left: 0.06rem;
   right: 0;
   bottom: 0;
   z-index: 1;
 
-  width: 19px;
-  height: 5px;
-  border-radius: 2px;
+  width: 1.19rem;
+  height: 0.31rem;
+  border-radius: 0.125rem;
   background-color: #5e42b0;
 }
 
 .title-number--bottom {
-  font-size: 18px;
-  line-height: 34px;
-  color: #000000;
+  font-size: 1.125rem;
+  line-height: 2.125rem;
+  color: #000;
   font-weight: 700;
 
   position: relative;
@@ -285,22 +289,22 @@ body {
   content: "";
   position: absolute;
 
-  top: 23px;
-  left: 1px;
+  top: 1.44rem;
+  left: 0.06rem;
   right: 0;
   bottom: 0;
   z-index: 1;
 
-  width: 19px;
-  height: 5px;
-  border-radius: 2px;
+  width: 1.19rem;
+  height: 0.31rem;
+  border-radius: 0.125rem;
   background-color: #efefef;
 }
 
 
 .description-title {
-  padding-top: 60px;
-  padding-bottom: 30px;
+  padding-top: 3.75rem;
+  padding-bottom: 1.875rem;
   font-size: 2.25rem;
   font-weight: 700;
   line-height: 2.125rem;
