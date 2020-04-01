@@ -26,7 +26,6 @@
   src: url(fonts/OpenSans-Bold.woff2);
 }
 
-
 *,
 *:before,
 *:after {
@@ -35,7 +34,12 @@
   -moz-appearance: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
   padding: 0;
 }
@@ -55,7 +59,7 @@ body {
 
 .header {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   max-width: 1920px;
 
   position: relative;
@@ -93,17 +97,18 @@ body {
 
 .header-logo {
   text-align: center;
+  padding: 2.8rem 0 18.5rem 0;
 }
 
 .header-logo-content {
   width: 11.9rem;
   height: 3.25rem;
-  margin: 2.8rem 0 18.5rem 0;
 }
 
 .header-title {
+  margin-bottom: 13.9rem;
   font-size: 5.6rem;
-  line-height: 1.9rem;
+  line-height: 6.25rem;
   font-weight: 700;
 
   color: #fff;
@@ -111,7 +116,7 @@ body {
 }
 
 .header-subtitle {
-  margin: 1.68rem 0 13.9rem 0;
+  display: block;
   font-size: 5.6rem;
   line-height: 6.25rem;
   font-weight: 700;
@@ -126,6 +131,7 @@ body {
 .header-buttons {
   display: flex;
   justify-content: center;
+  padding-bottom: 6.875rem;
 }
 
 .header-button-content {
@@ -152,6 +158,7 @@ body {
   width: 2.43rem;
   height: 3rem;
   margin-left: 2.43rem;
+
   transition: fill 0.2s linear;
 }
 
@@ -169,4 +176,149 @@ body {
   font-size: 0.875rem;
   line-height: 2.125rem;
   font-weight: 700;
+}
+
+/* Athlets */
+
+.top-page {
+  background-color: #fff;
+}
+
+.middle-page {
+  background-color: rgba(94, 66, 176, 0.06);
+}
+
+.bottom-page {
+  background-color: #5e42b0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1600px;
+  margin: 7.44rem auto;
+}
+
+.athlets {
+  width: 44.7rem;
+  margin-left: auto;
+  padding: 0 0.75rem;
+  position: relative;
+}
+
+.athlets--middle {
+  width: 44.8rem;
+  padding: 0 0.75rem;
+  margin-left: auto;
+}
+
+.athlets--bottom {
+  width: 44.8rem;
+  padding: 0 0.75rem;
+  margin-left: auto;
+}
+
+.athlets:after {
+  content: "";
+  position: absolute;
+  height: 56.75rem;
+  width: 35.2rem;
+
+  top: -4.375rem;
+  left: -38.75rem;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+
+  background-image: url(img/footballer_566.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main-title {
+  font-size: 5rem;
+  font-weight: 700;
+
+  color: #e7e7e7;
+  text-transform: uppercase;
+}
+
+.athlets-description {
+  padding-bottom: 60px;
+}
+
+.title-number {
+  font-size: 18px;
+  line-height: 34px;
+  color: #000000;
+  font-weight: 700;
+
+  position: relative;
+}
+
+.title-number:after {
+  content: "";
+  position: absolute;
+
+  top: 23px;
+  left: 1px;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+
+  width: 19px;
+  height: 5px;
+  border-radius: 2px;
+  background-color: #5e42b0;
+}
+
+.title-number--bottom {
+  font-size: 18px;
+  line-height: 34px;
+  color: #000000;
+  font-weight: 700;
+
+  position: relative;
+}
+
+.title-number--bottom:after {
+  content: "";
+  position: absolute;
+
+  top: 23px;
+  left: 1px;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+
+  width: 19px;
+  height: 5px;
+  border-radius: 2px;
+  background-color: #efefef;
+}
+
+
+.description-title {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 2.125rem;
+
+  text-transform: uppercase;
+  color: #c1c1c1;
+}
+
+.description-content {
+  font-size: 1.25rem;
+  font-weight: 400;
+
+  color: #000;
+}
+
+.description-content--bottom {
+  font-size: 1.25rem;
+  font-weight: 400;
+
+  color: #fff;
 }
