@@ -720,7 +720,7 @@ body {
   }
 
   .buttons {
-    padding-bottom: 3.44rem;
+    padding-bottom: 8.44rem;
   }
 
   .suface-logo-footer {
@@ -776,7 +776,7 @@ body {
     margin-top: 0;
     margin-left: 1rem;
     font-size: 0.5rem;
-    width: 5.6rem;
+    width: 5rem;
   }
 
   .button-text-upper {
@@ -875,14 +875,14 @@ body {
 
   .call-page-content {
     width: 100%;
-    padding: 2.125rem 0.94rem 5.1rem 0.94rem;
+    padding: 2.125rem 0.94rem 3.1rem 0.94rem;
 
     order: 1;
   }
 
   .call-page-content:nth-child(2n+2) {
     width: 100%;
-    padding: 2.125rem 0.94rem 5.1rem 0.94rem;
+    padding: 2.125rem 0.94rem 3.1rem 0.94rem;
   }
 
   .call-title {
@@ -950,7 +950,7 @@ body {
   }
 
   .buttons {
-    padding-bottom: 3.44rem;
+    padding-bottom: 8.44rem;
   }
 
   .suface-logo-footer {
