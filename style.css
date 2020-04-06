@@ -40,7 +40,8 @@ h3,
 h4,
 h5,
 h6,
-p {
+p,
+picture {
   margin: 0;
   padding: 0;
 }
@@ -201,6 +202,9 @@ body {
 .main-pages {
   width: 100%;
   max-width: 1920px;
+}
+.players-page {
+  overflow: hidden;
 }
 
 .top-page {
@@ -411,6 +415,7 @@ body {
 .call-page-section {
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
 }
 
 .call-page-pic {
@@ -434,12 +439,12 @@ body {
 
 .call-page-content {
   width: 50%;
-  padding: 16.25rem 8rem 5rem 0.94rem;
+  padding: 15.25rem 8rem 5rem 0.94rem;
 }
 
 .call-page-content:nth-child(2n+2) {
   width: 50%;
-  padding: 16.25rem 0.94rem 5rem 8rem;
+  padding: 15.25rem 0.94rem 5rem 8rem;
 }
 
 .call-title {
@@ -612,6 +617,10 @@ body {
   }
 
   /* Main-pages */
+  .top-page {
+    overflow: hidden;
+  }
+
   .main-title {
     font-size: 5rem;
     font-weight: 700;
@@ -717,6 +726,7 @@ body {
 
   .footer-title {
     font-size: 4.5rem;
+    text-align: center;
   }
 
   .buttons {
@@ -943,6 +953,7 @@ body {
 
   .footer-title {
     font-size: 2rem;
+    text-align: center;
   }
 
   .footer-subtitle {
